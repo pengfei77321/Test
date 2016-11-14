@@ -14,8 +14,8 @@ public class JDBCTest {
    public static void main(String[] args) {
       ResultSet rs = null;
       try {
-          Class.forName("com.mysql.jdbc.Driver");//Çı¶¯µÄÀàÃû
-          //·şÎñÆ÷µÄIPµØÖ·ºÍ¶Ë¿ÚºÅ£¬Êı¾İ¿âµÄÃû×Ö
+          Class.forName("com.mysql.jdbc.Driver");//é©±åŠ¨çš„ç±»å
+          //æœåŠ¡å™¨çš„IPåœ°å€å’Œç«¯å£å·ï¼Œæ•°æ®åº“çš„åå­—
           Connection conn =
              (Connection) DriverManager.getConnection(URL, USER, PASSWORD);
           Statement stmt = (Statement) conn.createStatement();
